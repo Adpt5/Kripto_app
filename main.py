@@ -2,7 +2,7 @@ import streamlit as st
 from crypto_utils import xor_cipher, rc4_cipher, des_cipher, aes_cipher
 from utils import base64_handler
 
-st.title("Aplikasi Kriptografi dengan Streamlit")
+st.title("Aplikasi Kriptografi Sederhana")
 
 # Pilih algoritma
 algo = st.selectbox("Pilih Algoritma:", ["Simple XOR", "RC4", "DES", "AES"])
